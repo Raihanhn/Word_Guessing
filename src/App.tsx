@@ -19,12 +19,12 @@ function App() {
       flexDirection:'column',
       gap:'2rem',
       margin:'0 auto',
-      alignItems:'center'
-    }}>
+      alignItems:'center',
+     }}>
       <div style={{fontSize: '2rem', textAlign:'center' }}>Lose win</div>
-      <div>
-        <HangmanDrawing/>
-        <HangmanWord/>
+      <HangmanDrawing/>
+      <HangmanWord/>
+      <div style={{ alignSelf: "stretch" }}>
         <Keyboard/>
       </div>
     </div>
