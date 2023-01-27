@@ -1,4 +1,4 @@
-// import styles from './Keyboard.module.css'
+import styles from './Keyboard.module.css'
 
 const KEYS = [
     "a",
@@ -38,7 +38,7 @@ export function Keyboard() {
             gap:".5rem",
           }}>      
             {KEYS.map(key => {
-              return <button className={''} key={key}>{key}</button>
+              return <button className={`${styles.btn}`} key={key}>{key}</button>
             })}
         </div>
     )
